@@ -4,22 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-
     app:cardCornerRadius="2dp"
     app:cardElevation="2dp"
     app:cardUseCompatPadding="true">
 
     <LinearLayout
-        android:padding="5dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginBottom="10dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:padding="8dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-
             android:layout_weight="2.5"
             android:orientation="vertical">
 
@@ -63,7 +61,6 @@
 
 
             <TextView
-                android:textAlignment="viewStart"
                 android:id="@+id/inr"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -71,6 +68,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_weight="1"
                 android:gravity="left"
+                android:textAlignment="viewStart"
                 android:textColor="#919191"
                 android:textSize="13sp"
                 tools:ignore="RtlCompat" />
@@ -101,7 +99,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginRight="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="5dp"
                 android:gravity="right|bottom"
 
                 android:textSize="13dp" />
